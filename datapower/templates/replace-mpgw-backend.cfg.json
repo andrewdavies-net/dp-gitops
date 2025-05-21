@@ -1,0 +1,24 @@
+{
+  "@build":"372844",
+  "@timestamp":"Wed May 21 11:53:07 2025",
+  "configuration":[
+    {
+      "GitOpsTemplate":{
+        "@name":"replace-mpgw-backend",
+        "mAdminState":"enabled",
+        "Templates":[
+          {
+            "TemplateType":"change",
+            "ClassName":"MultiProtocolGateway",
+            "Name":"multi-gateway",
+            "Field":"BackendUrl",
+            "Value":"endpointreplacement",
+            "ValueInverse":null,
+            "ValueValidate":null
+          }
+        ],
+        "VariableRef":"gitops-variables"
+      }
+    }
+  ]
+}
