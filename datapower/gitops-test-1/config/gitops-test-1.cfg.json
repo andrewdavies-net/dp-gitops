@@ -1,6 +1,6 @@
 {
-  "@build":"371904",
-  "@timestamp":"Thu May 15 10:41:55 2025",
+  "@build":"372844",
+  "@timestamp":"Thu May 22 09:16:35 2025",
   "configuration":[
     {
       "DomainSettings":{
@@ -12,9 +12,27 @@
     },
     {
       "PasswordAlias":{
+        "@name":"pat",
+        "mAdminState":"enabled",
+        "Version":1,
+        "EncryptedPassword":"hZvUdAOBAyNwxwBDgPYiFGghgfZ2wz/XxPQV38KOSXEfUvjaaU9XZ0skVW++hPEaCqdtBQZ0r58HulQKvTp+e0QU/h1tTtzTTgLsu0rdlhojXL1dTNtxZyvC3F/PBQM20fucugZto5N5liAyl8RROQ=="
+      }
+    },
+    {
+      "PasswordAlias":{
         "@name":"personal-access-token",
         "mAdminState":"enabled",
-        "EncryptedPassword":"cVW7WbkxupDcsHlhfdr83QSj+qMtnZAUjSxluQz0B86sV0H+rt8/oS+tIWakqcFEp1R0Rnu3Cz2X7DgNM2RzugmbtU2B5jjLYFZhkZ1kL6i5e0rGZADu5i6Z4D2dW2Qiwp0/iuC3CBY="
+        "Version":1,
+        "EncryptedPassword":"hwOexNku1Y00ZgQLl9Dnal5HhnhByMrObQJgyM+0N+0pbslpNHjoSXqu8xn7Vbchns3wbkkt9y47fe4Bt343ygcfMXywb+zsm/SXzL8OibJueAlTG9tYjHZE4G8UIZ+adsRN1XQd2Iy4UudTp0/cxw=="
+      }
+    },
+    {
+      "CryptoCertificate":{
+        "@name":"github-cert",
+        "mAdminState":"enabled",
+        "Filename":"cert:///github.com.cer",
+        "PasswordAlias":"off",
+        "IgnoreExpiration":"off"
       }
     },
     {
@@ -42,6 +60,21 @@
         "Certificate":[
           "github-openssl-export"
         ],
+        "CertValidationMode":"legacy",
+        "UseCRL":"on",
+        "RequireCRL":"off",
+        "CRLDPHandling":"ignore",
+        "InitialPolicySet":[
+          "2.5.29.32.0"
+        ],
+        "ExplicitPolicy":"off",
+        "CheckDates":"on"
+      }
+    },
+    {
+      "CryptoValCred":{
+        "@name":"valcred",
+        "mAdminState":"enabled",
         "CertValidationMode":"legacy",
         "UseCRL":"on",
         "RequireCRL":"off",
@@ -870,7 +903,7 @@
         "SSLClientConfigType":"proxy",
         "DefaultParamNamespace":"http://www.datapower.com/param/config",
         "QueryParamNamespace":"http://www.datapower.com/param/query",
-        "BackendUrl":"https://echo.andrewdavies.net",
+        "BackendUrl":"backendplaceholder",
         "PropagateURI":"on",
         "MonitorProcessingPolicy":"terminate-at-first-throttle",
         "RequestAttachments":"strip",

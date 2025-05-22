@@ -1,0 +1,17 @@
+{
+  "channel": [
+    {
+      "name": "MQ.QS.SVRCONN",
+      "clientConnection": {
+        "connection": [
+          {
+            "host": "appqmgr2-ibm-mq-qm-app-qmgr02.apps.ocpz2.ibmlab.de",
+            "port": 443
+          }
+        ],
+        "queueManager": "APPQMGR2"
+      },
+      "type": "clientConnection"
+    }
+  ]
+}
