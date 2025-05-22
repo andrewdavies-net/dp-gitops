@@ -775,7 +775,7 @@
         "@name":"fsh-http",
         "mAdminState":"enabled",
         "LocalAddress":"0.0.0.0",
-        "LocalPort":8080,
+        "LocalPort":80,
         "HTTPVersion":"HTTP/1.1",
         "AllowedFeatures":{
           "HTTP-1.0":"on",
