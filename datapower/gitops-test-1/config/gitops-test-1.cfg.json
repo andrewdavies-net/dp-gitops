@@ -1,6 +1,6 @@
 {
   "@build":"372844",
-  "@timestamp":"Fri May 30 07:53:55 2025",
+  "@timestamp":"Fri May 30 08:07:46 2025",
   "configuration":[
     {
       "DomainSettings":{
@@ -951,7 +951,7 @@
         "SSLClientConfigType":"proxy",
         "DefaultParamNamespace":"http://www.datapower.com/param/config",
         "QueryParamNamespace":"http://www.datapower.com/param/query",
-        "BackendUrl":"https://echo.andrewdavies.net",
+        "BackendUrl":"backendplaceholder",
         "PropagateURI":"on",
         "MonitorProcessingPolicy":"terminate-at-first-throttle",
         "RequestAttachments":"strip",
